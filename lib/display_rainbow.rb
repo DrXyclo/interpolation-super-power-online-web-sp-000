@@ -1,15 +1,26 @@
 # Write your #display_rainbow method here
 
+<<<<<<< HEAD
 
 
 
 #working code - final solution was to bring array outside the method, per the example
+=======
+#close to working code?
+
+
+
+>>>>>>> 22fa75fc1c033408b528172798ad43b284a43560
 def display_rainbow(colors)
   puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
 end
 
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
+<<<<<<< HEAD
+=======
+print_business_card(colors)
+>>>>>>> 22fa75fc1c033408b528172798ad43b284a43560
 
 
 
@@ -23,7 +34,11 @@ def display_rainbow(colors)
   puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
 end
 
+<<<<<<< HEAD
 #B sample code
+=======
+=begin sample code
+>>>>>>> 22fa75fc1c033408b528172798ad43b284a43560
 def print_business_card(person)
   puts "Name: #{person[0]}, Age: #{person[1]}, Occupation: #{person[2]}"
   puts "Contact: #{person[3]}"
@@ -34,7 +49,11 @@ stefani = ["Stefani", 49, "Firefighter", "555-111-1111"]
 
 print_business_card(bob)
 print_business_card(stefani)
+<<<<<<< HEAD
 #E sample code
+=======
+=end sample code
+>>>>>>> 22fa75fc1c033408b528172798ad43b284a43560
 
 #purposefully changed argument from colors to color to force a different error message
 def display_rainbow(color)
